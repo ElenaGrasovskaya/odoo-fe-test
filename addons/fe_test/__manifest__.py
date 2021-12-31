@@ -12,10 +12,13 @@
     ],
     'assets': {
         'web.assets_qweb': [
-            '/static/src/**/base_import.xml',
+            'fe_test/static/src/xml/qweb.xml',
         ],
         'web.assets_backend': [
-            '/static/src/**/*.js',
+            'fe_test/static/src/js/be_script.js',
+        ],
+        "web.assets_frontend": [
+            'fe_test/static/src/js/fe_script.js',
         ],
     },
     'installable': True,

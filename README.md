@@ -15,3 +15,12 @@ Project setup:
 It will also install Contacts and Website modules as a dependency, that is how you know the module installed successfully.
 
 Hint: Going to settings and activating developer mode/ developer mode (with assets) could be useful.
+
+See tasks in folders test 1 & test 2
+Please use best git practices when working with code in your repository - naming, branching, commenting. 
+Image the repo is shared with 5 other people.
+
+Submission:
+
+Create a copy of this repository. Add code according to tasks description. Provide a link to your private repository,
+which contains modifications to fe_test addon.

@@ -1,0 +1,12 @@
+TASK 2
+In this task you need to modify Odoo frontend web assets in order to add "clean" icon into default search widget,
+that allows removing entered text in the search bar.
+See the picture as a reference
+
+Navigate to Website module. Click Go to Website. Click Edit in the upper right side. Side panel will show up with a list
+of default widgets. Scroll down to Dynamic Content section, add Search widget to the website by draging it to the left
+onto website screen. Click Save.
+Modify this widget so every time you drag a search bar into website it allows cleaning entered text into search.
+
+Hint:
+You can update code in fe_script.js file as it loads into the Website part of the system assets.

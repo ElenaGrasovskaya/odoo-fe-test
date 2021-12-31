@@ -1,0 +1,11 @@
+TASK 1
+In this task you need to modify Odoo backend web assets in order to add "trash" icon that allows deleting a record.
+See the picture as a reference
+Navigate to Contracts module. Create or take existing company Contact. Click Edit and Add several related contracts
+in section Contacts & Addresses. Click Save in order to save them.
+Blocks with created information will appear with Contact name and picture. These blocks called kanban view in Odoo.
+Add a trash icon to the upper right corner of each block, which upon click will delete the object. When you reload the
+page the objects stays deleted.
+
+Hint: Backend method unlink() can be called to delete this object.
+You can update code in be_script.js file as it is loads into the Admin part of the system assets.
