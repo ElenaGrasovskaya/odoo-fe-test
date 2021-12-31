@@ -1,4 +1,4 @@
-odoo.define('test.code', function (require) {
+odoo.define('test.code1', function (require) {
 "use strict";
 
 })
