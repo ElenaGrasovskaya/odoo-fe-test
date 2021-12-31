@@ -1,0 +1,26 @@
+version: '2'
+services:
+  web:
+    container_name: odoo-web
+    build: ..
+    user: odoo
+    depends_on:
+      - test-db
+    ports:
+      - "8019:8069"
+    volumes:
+      - ../addons:/mnt/extra-addons
+      - ./odoo.conf:/etc/odoo/odoo.conf
+    environment:
+      - HOST=mydb
+      - USER=odoo
+      - PASSWORD=myodoo
+  rayim-db:
+    container_name: test-db
+    ports:
+      - "5431:5432"
+    image: postgres:10
+    environment:
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=myodoo
+      - POSTGRES_DB=postgres
