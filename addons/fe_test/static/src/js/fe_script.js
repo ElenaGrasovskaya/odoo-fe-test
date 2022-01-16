@@ -21,8 +21,7 @@ odoo.define("test.code2", function (require) {
     ClearButtonsArray[index].class = "btn btn-primary";
     ClearButtonsArray[index].innerText = "Clear";
     ClearButtonsArray[index].onclick = clearSearchField;
-    ClearButtonsArray[index].style = "border:1px solid black";
-    console.log(ClearButtonsArray[index]);
+    ClearButtonsArray[index].style = "border:1px solid black; border-top-right-radius: 3px; border-bottom-right-radius: 3px;";
     el.appendChild(ClearButtonsArray[index]);
   });
 });
